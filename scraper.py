@@ -43,8 +43,6 @@ while scrape:
             y = textual_date.split()[2]
             date = m + '/' + "{:02d}".format(int(d)) + '/' + y
 
-
-
             # Check if the post is in the specified interval
             before_date_arr = before_date.split('/')
             after_date_arr = after_date.split('/')
